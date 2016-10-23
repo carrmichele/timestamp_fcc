@@ -1,14 +1,25 @@
 {
   "name": "timestamp_fcc",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carrmichele/timestamp_fcc.git"
+  },
+  "keywords": [
+    "API",
+    "Carrmichele",
+    "Timestamp",
+  ],
   "author": "caroline gordon",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "moment": "^2.15.1",
+    "body-parser": "^1.15.2"
   }
 }

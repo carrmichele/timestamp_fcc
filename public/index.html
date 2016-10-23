@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Timestamp microservice</title>
+  <!-- Always allow latest IE rendering engine (even in intranet) & Chrome Frame
+Remove this if you use the .htaccess -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="description" content="Timestamp API">
+  <meta name="author" content="Carrmichele">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/public/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container-fluid">
+          <img src="https://avatars0.githubusercontent.com/u/19416050?v=3&u=659c9b787b587a19d1eea88a2fead03892038944&s=140" class="img-thumbnail" alt="Caroline Gordon" />
+    <p><br>
+        <span class="author">By: Caroline Gordon ||</span>
+        <a href="https://github.com/carrmichele" target="blank">
+        <i class="fa fa-github fa-fw"></i>
+      </a>
+      <a href="mailto:cg12d@my.fsu.edu">
+        <i class="fa fa-envelope fa-fw"></i>
+      </a> 
+      <a href="https://www.linkedin.com/in/carolinemgordon" target="blank">
+        <i class="fa fa-linkedin"></i>
+      </a>
+      <a href="http://codepen.io/caromichel" target="blank">
+        <i class="fa fa-codepen"></i>
+      </a>
+      <a href="http://www.freecodecamp.com/carrmichele" target="blank">
+    <i class="fa fa-fire fa-fw"></i>
+  </a></p>
+    <h1 class="header">
+      FreeCodeCamp API Project 1: Timestamp Microservice
+    </h1>
+    <blockquote>
+      User stories:
+      <ul>1) User can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016).</ul>
+      <ul>2) If it does not contain a date or Unix timestamp, it returns null for those properties.</ul>
+      <ul>3) If it does, it returns both the Unix timestamp and the natural language form of that date.</ul>
+    </blockquote>
+    <h3>Example usage:</h3>
+    
+    <div class="well well-lg">
+        <h4 class="description-1">Copy & Paste the following URLs into your browser's address bar to see the result.</span>
+        <hr>
+       1. <code>https://r282-timestamp-api.herokuapp.com/January%2017,%202017</code>
+        <br>
+       2. <code>https://r282-timestamp-api.herokuapp.com/1484611200</code>
+        </div>
+        <br>
+     <h3>Example output:</h3>
+    <div class="well well-lg">
+        <h4 class="description-2"> The following displays the output from the examples above.</h4>
+        <hr>
+        <code>
+      { "unix": 1484611200, "natural": "January 17, 2017" }
+    </code>
+    </div>
+  </div>
+  
+</body>
+
+</html>
